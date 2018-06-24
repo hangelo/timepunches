@@ -20,3 +20,10 @@ All works on the same file, we just manipulate the GET request to show only time
 - There is a block of javascript code. This block can be move to a separate javascript file.
 - I don't put much hour/work on css coding. I think that this step is more exclusive to each case. Also, this doesn't affect the features.
 - The JSON files can be store on another location. For this example I use a simples local storage.
+
+
+## Doubts
+
+- There is some entries on timePunches.json file that should be fixed before the information goesto that file. For example:
+- - Entry with datetime check-in but no check-out.
+- - Entry with conflicts, two entries occuping the same check-in/check-out block of space.

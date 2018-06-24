@@ -467,7 +467,7 @@ if (!$param_user_id) {
             <td style="padding-top:20px;"><b>Total:</b> $'.number_format($location['wage'] + $location['overtime'], 2).'</td>
         </tr>';
 
-        $html_punches .= '<tr><td style="padding:20px 0 0 0; font-size:1.5em;">On each eeek</td></tr>';
+        $html_punches .= '<tr><td style="padding:20px 0 0 0; font-size:1.5em;">On each week</td></tr>';
         foreach ($location['week'] as $week_number => $week) {
 
             // each week title
